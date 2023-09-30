@@ -1,5 +1,5 @@
-from .employee_base import EmployeeBase
+from .worker import Worker
 
 
-class Keeper(EmployeeBase):
+class Keeper(Worker):
     pass

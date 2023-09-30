@@ -1,5 +1,5 @@
-from .employee_base import EmployeeBase
+from .worker import Worker
 
 
-class Caretaker(EmployeeBase):
+class Caretaker(Worker):
     pass

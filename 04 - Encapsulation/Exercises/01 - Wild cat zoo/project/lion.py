@@ -1,5 +1,6 @@
-from .animal_base import AnimalBase
+from .animal import Animal
 
 
-class Lion(AnimalBase):
-    needs = 50
+class Lion(Animal):
+    def __init__(self, name: str, gender: str, age: int):
+        super().__init__(name, gender, age, 50)
